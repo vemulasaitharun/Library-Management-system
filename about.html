@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blobs</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+  <section>
+    <div class="item">
+      <div class="circle">
+        <div class="item-icon"><span class="material-symbols-outlined size-36">
+key
+</span></div>
+        <div class="item-title">Introduction</div>
+      </div>
+      <div class="text">
+        <h4></h4>
+        <p>Introduction The Central Library is spread over three floors with an area of 30,000 S.Ft, well equipped with modern facilities and International Standards. </p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="circle">
+        <div class="item-icon"><span class="material-symbols-outlined size-36">
+settings_accessibility
+</span></div>
+        <div class="item-title">College</div>
+      </div>
+      <div class="text">
+        <h4></h4>
+        <p>Specialized collection of Books, Journals and Non-book material are available in Engineering, Technology and Management.</p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="circle">
+        <div class="item-icon"><span class="material-symbols-outlined size-36">
+data_thresholding
+</span></div>
+        <div class="item-title">Collection</div>
+      </div>
+      <div class="text">
+        <h4></h4>
+        <p>Our collection has over 78200 volumes of books, 1600 back volumes</p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="circle">
+        <div class="item-icon">
+          <span class="material-symbols-outlined size-36">
+storage
+</span>
+        </div>
+        <div class="item-title">silent features</div>
+      </div>
+      <div class="text">
+        <h4></h4>
+        <p>Well Stocked library with 78200 volumes with 100032 titles of books
+E-library with all AICTE recommended journals</p>
+      </div>
+    </div>
+  </section>
+</body>
+<style>
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  background-color: #fff9f9;
+  height: 100vh;
+  width: 100vw;
+}
+
+section {
+  margin: 0 auto;
+  width: 600px;
+  height: 350px;
+  transform: translateY(20%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.item {
+  width: 280px;
+  height: 150px;
+  position: relative;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  border: 2px solid #f9f9f9;
+  background: linear-gradient(145deg, #e9e2e2, #fefefe);
+  box-shadow: 10px 10px 16px -14px rgba(0,0,0,0.75);
+}
+
+.text {
+  color: #f9f9f9;
+  position: absolute;
+  top: 45px;
+  right: 10px;
+  width: 140px;
+}
+.text > p {
+  font-size: 10px;
+  padding-right: 25px;
+  margin-top: 5px;
+}
+.item:nth-child(3) > div.text {
+  padding-right: 30px;
+  padding-top: 20px;
+}
+
+
+.item-title {
+  font-weight: 600;
+  color: #3f3f3f;
+}
+
+.material-symbols-outlined.size-36 {
+  color: #939292;
+  font-size: 36px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.item:nth-child(4) > div.text::after {
+  z-index: -100;
+  content: "";
+  position: absolute;
+  top: -100px;
+  left: -130px;
+  width: 298px;
+  transform: rotate(-5deg);
+  height: 243px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml;utf8, %3Csvg width=%22100%25%22 height=%22100%25%22 viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22 %3E %3Cdefs%3E %3CclipPath id=%22shape%22%3E %3Cpath fill=%22currentColor%22 d=%22M791.5%2C585.5Q735%2C671%2C652.5%2C693.5Q570%2C716%2C497.5%2C723.5Q425%2C731%2C264%2C760Q103%2C789%2C174%2C644.5Q245%2C500%2C222.5%2C391Q200%2C282%2C311.5%2C272Q423%2C262%2C496.5%2C273.5Q570%2C285%2C717.5%2C260Q865%2C235%2C856.5%2C367.5Q848%2C500%2C791.5%2C585.5Z%22%3E%3C%2Fpath%3E %3C%2FclipPath%3E %3C%2Fdefs%3E %3Cg clip-path=%22url(%23shape)%22%3E %3Cpath fill=%22none%22 stroke=%22%23BA98D1%22 stroke-width=%225%22 d=%22M791.5%2C585.5Q735%2C671%2C652.5%2C693.5Q570%2C716%2C497.5%2C723.5Q425%2C731%2C264%2C760Q103%2C789%2C174%2C644.5Q245%2C500%2C222.5%2C391Q200%2C282%2C311.5%2C272Q423%2C262%2C496.5%2C273.5Q570%2C285%2C717.5%2C260Q865%2C235%2C856.5%2C367.5Q848%2C500%2C791.5%2C585.5Z%22 %2F%3E %3C%2Fg%3E %3C%2Fsvg%3E");
+}
+.item:nth-child(4) > div.text::before {
+  z-index: -100;
+  content: "";
+  position: absolute;
+  top: -100px;
+  left: -130px;
+  width: 295px;
+  height: 243px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml;utf8, %3Csvg width=%22100%25%22 height=%22100%25%22 viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22 %3E %3Cdefs%3E %3ClinearGradient id=%22linearGradientId%22 gradientTransform=%22rotate(-45 0.5 0.5)%22%3E %3Cstop offset=%220%25%22 stop-color=%22%233EECAC%22 %2F%3E %3Cstop offset=%22100%25%22 stop-color=%22%23EE74E1%22 %2F%3E %3C%2FlinearGradient%3E %3CclipPath id=%22shape%22%3E %3Cpath fill=%22currentColor%22 d=%22M791.5%2C585.5Q735%2C671%2C652.5%2C693.5Q570%2C716%2C497.5%2C723.5Q425%2C731%2C264%2C760Q103%2C789%2C174%2C644.5Q245%2C500%2C222.5%2C391Q200%2C282%2C311.5%2C272Q423%2C262%2C496.5%2C273.5Q570%2C285%2C717.5%2C260Q865%2C235%2C856.5%2C367.5Q848%2C500%2C791.5%2C585.5Z%22%3E%3C%2Fpath%3E %3C%2FclipPath%3E %3C%2Fdefs%3E %3Cg clip-path=%22url(%23shape)%22%3E %3Cpath fill=%22url(%23linearGradientId)%22 d=%22M791.5%2C585.5Q735%2C671%2C652.5%2C693.5Q570%2C716%2C497.5%2C723.5Q425%2C731%2C264%2C760Q103%2C789%2C174%2C644.5Q245%2C500%2C222.5%2C391Q200%2C282%2C311.5%2C272Q423%2C262%2C496.5%2C273.5Q570%2C285%2C717.5%2C260Q865%2C235%2C856.5%2C367.5Q848%2C500%2C791.5%2C585.5Z%22 %2F%3E %3C%2Fg%3E %3C%2Fsvg%3E");
+}
+
+
+.item:nth-child(3) > div.text::after {
+  z-index: -100;
+  content: "";
+  position: absolute;
+  top: -80px;
+  left: -148px;
+  width: 295px;
+  transform: rotate(7deg);
+  height: 243px;
+  background-size: cover;
+  background-repeat: no-repeat; 
+    background-image: url("data:image/svg+xml;utf8, %3Csvg width=%22100%25%22 height=%22100%25%22 viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22 %3E %3Cdefs%3E %3CclipPath id=%22shape%22%3E %3Cpath fill=%22currentColor%22 d=%22M816%2C614.5Q815%2C729%2C692%2C720.5Q569%2C712%2C479%2C777Q389%2C842%2C260.5%2C804.5Q132%2C767%2C109%2C633.5Q86%2C500%2C97%2C357.5Q108%2C215%2C234%2C142.5Q360%2C70%2C470.5%2C160.5Q581%2C251%2C728%2C239Q875%2C227%2C846%2C363.5Q817%2C500%2C816%2C614.5Z%22%3E%3C%2Fpath%3E %3C%2FclipPath%3E %3C%2Fdefs%3E %3Cg clip-path=%22url(%23shape)%22%3E %3Cpath fill=%22none%22 stroke=%22%23FB9081%22 stroke-width=%225%22 d=%22M816%2C614.5Q815%2C729%2C692%2C720.5Q569%2C712%2C479%2C777Q389%2C842%2C260.5%2C804.5Q132%2C767%2C109%2C633.5Q86%2C500%2C97%2C357.5Q108%2C215%2C234%2C142.5Q360%2C70%2C470.5%2C160.5Q581%2C251%2C728%2C239Q875%2C227%2C846%2C363.5Q817%2C500%2C816%2C614.5Z%22 %2F%3E %3C%2Fg%3E %3C%2Fsvg%3E");
+}
+.item:nth-child(3) > div.text::before {
+  z-index: -100;
+  content: "";
+  position: absolute;
+  top: -80px;
+  left: -145px;
+  width: 290px;
+  height: 243px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml;utf8, %3Csvg width=%22100%25%22 height=%22100%25%22 viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22 %3E %3Cdefs%3E %3ClinearGradient id=%22linearGradientId%22 gradientTransform=%22rotate(-45 0.5 0.5)%22%3E %3Cstop offset=%220%25%22 stop-color=%22%23FEE140%22 %2F%3E %3Cstop offset=%22100%25%22 stop-color=%22%23FA709A%22 %2F%3E %3C%2FlinearGradient%3E %3CclipPath id=%22shape%22%3E %3Cpath fill=%22currentColor%22 d=%22M816%2C614.5Q815%2C729%2C692%2C720.5Q569%2C712%2C479%2C777Q389%2C842%2C260.5%2C804.5Q132%2C767%2C109%2C633.5Q86%2C500%2C97%2C357.5Q108%2C215%2C234%2C142.5Q360%2C70%2C470.5%2C160.5Q581%2C251%2C728%2C239Q875%2C227%2C846%2C363.5Q817%2C500%2C816%2C614.5Z%22%3E%3C%2Fpath%3E %3C%2FclipPath%3E %3C%2Fdefs%3E %3Cg clip-path=%22url(%23shape)%22%3E %3Cpath fill=%22url(%23linearGradientId)%22 d=%22M816%2C614.5Q815%2C729%2C692%2C720.5Q569%2C712%2C479%2C777Q389%2C842%2C260.5%2C804.5Q132%2C767%2C109%2C633.5Q86%2C500%2C97%2C357.5Q108%2C215%2C234%2C142.5Q360%2C70%2C470.5%2C160.5Q581%2C251%2C728%2C239Q875%2C227%2C846%2C363.5Q817%2C500%2C816%2C614.5Z%22 %2F%3E %3C%2Fg%3E %3C%2Fsvg%3E");
+}
+
+
+.item:nth-child(2) > div.text::after {
+  z-index: -100;
+  content: "";
+  position: absolute;
+  top: -150px;
+  left: -145px;
+  width: 305px;
+  height: 285px;
+  transform: rotate(7deg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml;utf8, %3Csvg width=%22100%25%22 height=%22100%25%22 viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22 %3E %3Cdefs%3E %3CclipPath id=%22shape%22%3E %3Cpath fill=%22currentColor%22 d=%22M894%2C627.5Q851%2C755%2C752.5%2C864Q654%2C973%2C546%2C832.5Q438%2C692%2C323.5%2C702Q209%2C712%2C175.5%2C606Q142%2C500%2C230%2C434Q318%2C368%2C368%2C307.5Q418%2C247%2C493%2C269Q568%2C291%2C685.5%2C285.5Q803%2C280%2C870%2C390Q937%2C500%2C894%2C627.5Z%22%3E%3C%2Fpath%3E %3C%2FclipPath%3E %3C%2Fdefs%3E %3Cg clip-path=%22url(%23shape)%22%3E %3Cpath fill=%22none%22 stroke=%22%23D46BAE%22 stroke-width=%225%22 d=%22M894%2C627.5Q851%2C755%2C752.5%2C864Q654%2C973%2C546%2C832.5Q438%2C692%2C323.5%2C702Q209%2C712%2C175.5%2C606Q142%2C500%2C230%2C434Q318%2C368%2C368%2C307.5Q418%2C247%2C493%2C269Q568%2C291%2C685.5%2C285.5Q803%2C280%2C870%2C390Q937%2C500%2C894%2C627.5Z%22 %2F%3E %3C%2Fg%3E %3C%2Fsvg%3E");
+}
+.item:nth-child(2) > div.text::before {
+  z-index: -100;
+  content: "";
+  position: absolute;
+  top: -140px;
+  left: -145px;
+  width: 295px;
+  height: 275px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml;utf8, %3Csvg width=%22100%25%22 height=%22100%25%22 viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22 %3E %3Cdefs%3E %3ClinearGradient id=%22linearGradientId%22 gradientTransform=%22rotate(-45 0.5 0.5)%22%3E %3Cstop offset=%220%25%22 stop-color=%22%234158D0%22 %2F%3E %3Cstop offset=%2250%25%22 stop-color=%22%23C850C0%22 %2F%3E %3Cstop offset=%22100%25%22 stop-color=%22%23ffcc70%22 %2F%3E %3C%2FlinearGradient%3E %3CclipPath id=%22shape%22%3E %3Cpath fill=%22currentColor%22 d=%22M894%2C627.5Q851%2C755%2C752.5%2C864Q654%2C973%2C546%2C832.5Q438%2C692%2C323.5%2C702Q209%2C712%2C175.5%2C606Q142%2C500%2C230%2C434Q318%2C368%2C368%2C307.5Q418%2C247%2C493%2C269Q568%2C291%2C685.5%2C285.5Q803%2C280%2C870%2C390Q937%2C500%2C894%2C627.5Z%22%3E%3C%2Fpath%3E %3C%2FclipPath%3E %3C%2Fdefs%3E %3Cg clip-path=%22url(%23shape)%22%3E %3Cpath fill=%22url(%23linearGradientId)%22 d=%22M894%2C627.5Q851%2C755%2C752.5%2C864Q654%2C973%2C546%2C832.5Q438%2C692%2C323.5%2C702Q209%2C712%2C175.5%2C606Q142%2C500%2C230%2C434Q318%2C368%2C368%2C307.5Q418%2C247%2C493%2C269Q568%2C291%2C685.5%2C285.5Q803%2C280%2C870%2C390Q937%2C500%2C894%2C627.5Z%22 %2F%3E %3C%2Fg%3E %3C%2Fsvg%3E");
+}
+
+
+.item:nth-child(1) > div.text::after {
+  z-index: -100;
+  content: "";
+  position: absolute;
+  top: -115px;
+  left: -135px;
+  width: 300px;
+  height: 300px;
+  transform: rotate(-8deg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml;utf8, %3Csvg width=%22100%25%22 height=%22100%25%22 viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22 %3E %3Cdefs%3E %3CclipPath id=%22shape%22%3E %3Cpath fill=%22currentColor%22 d=%22M830%2C607Q794%2C714%2C691.5%2C744.5Q589%2C775%2C503.5%2C764.5Q418%2C754%2C343%2C711.5Q268%2C669%2C216.5%2C584.5Q165%2C500%2C168%2C380.5Q171%2C261%2C265%2C164Q359%2C67%2C461%2C187Q563%2C307%2C692.5%2C286.5Q822%2C266%2C844%2C383Q866%2C500%2C830%2C607Z%22%3E%3C%2Fpath%3E %3C%2FclipPath%3E %3C%2Fdefs%3E %3Cg clip-path=%22url(%23shape)%22%3E %3Cpath fill=%22none%22 stroke=%22%2334c1dd%22 stroke-width=%225%22 d=%22M830%2C607Q794%2C714%2C691.5%2C744.5Q589%2C775%2C503.5%2C764.5Q418%2C754%2C343%2C711.5Q268%2C669%2C216.5%2C584.5Q165%2C500%2C168%2C380.5Q171%2C261%2C265%2C164Q359%2C67%2C461%2C187Q563%2C307%2C692.5%2C286.5Q822%2C266%2C844%2C383Q866%2C500%2C830%2C607Z%22 %2F%3E %3C%2Fg%3E %3C%2Fsvg%3E");
+}
+.item:nth-child(1) > div.text::before {
+  z-index: -100;
+  content: "";
+  position: absolute;
+  top: -115px;
+  left: -131px;
+  width: 296px;
+  height: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml;utf8, %3Csvg width=%22100%25%22 height=%22100%25%22 viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22 %3E %3Cdefs%3E %3ClinearGradient id=%22linearGradientId%22 gradientTransform=%22rotate(-45 0.5 0.5)%22%3E %3Cstop offset=%220%25%22 stop-color=%22%2321D4FD%22 %2F%3E %3Cstop offset=%22100%25%22 stop-color=%22%23B721FF%22 %2F%3E %3C%2FlinearGradient%3E %3CclipPath id=%22shape%22%3E %3Cpath fill=%22currentColor%22 d=%22M830%2C607Q794%2C714%2C691.5%2C744.5Q589%2C775%2C503.5%2C764.5Q418%2C754%2C343%2C711.5Q268%2C669%2C216.5%2C584.5Q165%2C500%2C168%2C380.5Q171%2C261%2C265%2C164Q359%2C67%2C461%2C187Q563%2C307%2C692.5%2C286.5Q822%2C266%2C844%2C383Q866%2C500%2C830%2C607Z%22%3E%3C%2Fpath%3E %3C%2FclipPath%3E %3C%2Fdefs%3E %3Cg clip-path=%22url(%23shape)%22%3E %3Cpath fill=%22url(%23linearGradientId)%22 d=%22M830%2C607Q794%2C714%2C691.5%2C744.5Q589%2C775%2C503.5%2C764.5Q418%2C754%2C343%2C711.5Q268%2C669%2C216.5%2C584.5Q165%2C500%2C168%2C380.5Q171%2C261%2C265%2C164Q359%2C67%2C461%2C187Q563%2C307%2C692.5%2C286.5Q822%2C266%2C844%2C383Q866%2C500%2C830%2C607Z%22 %2F%3E %3C%2Fg%3E %3C%2Fsvg%3E");
+}
+</style>
+</html>

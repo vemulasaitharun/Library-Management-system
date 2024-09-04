@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Webpage Design</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
+            background-position: center;
+            background-size: cover;
+            height: 100vh; /* Full viewport height */
+            color: #fff;
+        }
+
+        .main {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .logo {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        .logout {
+            margin-right: 20px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #ff7200;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .logout:hover {
+            background-color: #ff9000;
+        }
+
+        form {
+            background-color: rgba(255, 255, 255, 0.3);
+            padding: 20px;
+            border-radius: 10px;
+            color: #333; /* Updated content color */
+        }
+
+        input[type="text"],
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.7);
+            color: #333;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #ff7200;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #ff9000;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h1 >AU Library</h1>
+            </div>
+            <a href="home.html" class="logout">Logout</a>
+        </div>
+
+        <form action="adminupdatebooks.jsp">
+            <div class="content">
+                <h1>
+                    <span>
+                        Enter bookname:<input type="text" name="bookname"><br>
+                        Select what you want to update:
+                        <select name="whattochange">
+                            <option value="bookname" name="bookname">Bookname</option>
+                            <option value="category" name="category">Category</option>
+                            <option value="quantity" name="quantity">Quantity</option>
+                        </select><br>
+                        Value to be updated:<input type="text" name="updatedvalue">
+                    </span>
+                </h1>
+                <button class="cn" type="submit">UPDATE</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
